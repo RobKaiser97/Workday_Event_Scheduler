@@ -19,8 +19,6 @@ $(function () {
     // 'currentHour' is set to the current hour according to dayjs.
     var currentHour = dayjs().hour();
 
-    // Logging the current hour for debugging purposes.
-    console.log(currentHour);
 
     // 'plannerHours' is a jQuery object that contains all elements with an id that starts with "hour-".
     var plannerHours = $('[id^="hour-"]');
@@ -31,14 +29,10 @@ $(function () {
       // 'id' is the id of the current element in the loop.
       const id = $(this).attr("id");
 
-      // Logging the id for debugging purposes.
-      console.log(id);
 
       // 'endingNumber' is the number portion of the id string.
       const endingNumber = id.split("-")[1];
 
-      // Logging the ending number for debugging purposes.
-      console.log(endingNumber);
 
       // The following if-else if block assigns class names to the current element based on whether the 'endingNumber' is greater, less than, or equal to 'currentHour'.
       if (parseInt(endingNumber) > currentHour) {
@@ -77,8 +71,6 @@ $(function () {
     // The text of the element with the id 'currentDay' is set to 'time'.
     $("#currentDay").text(time);
 
-    // Logging the current hour for debugging purposes.
-    console.log(today.hour());
 
     // If the current hour is greater than 17 (5 PM), the text of '#currentDay' is changed.
     if (today.hour() > 17) {
