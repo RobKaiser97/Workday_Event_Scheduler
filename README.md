@@ -7,7 +7,7 @@ Enter and save items to the web page to keep track of things you need to complet
 
 ## Installation
 
-No installation required, navigate to "[github hosted version of html here](https://robkaiser97.github.io/JS_Password_Generator/)" to veiw the project.
+No installation required, navigate to "[github hosted version of html here](https://robkaiser97.github.io/Workday_Event_Scheduler/)" to veiw the project.
 
 ## Usage
 
