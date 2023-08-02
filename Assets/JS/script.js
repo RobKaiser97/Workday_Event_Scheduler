@@ -90,6 +90,4 @@ $(function () {
     }
   }, 1000);
 
-  // This line doesn't do anything; 'clock' is not a function to call but rather an interval that's already running.
-  clock;
 });
